@@ -16,6 +16,10 @@ body {
   font-family: 'Noto Sans', sans-serif;
 }
 
+img {
+  max-width: 100%;
+}
+
 nav {
   background-color: black;
 }
@@ -46,20 +50,10 @@ nav ul li a:hover {
   padding: 1em;
 }
 
-
-img {
-  max-width: 100%;
-}
-
 header img {
-  height: 80%
-  height: 20vh;
+  height: 50%;
 }
 
-.about-me {
-  display: flex;
-  
-}
 
 .work {
   max-width: 1080px;
