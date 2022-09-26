@@ -80,11 +80,17 @@ ol {
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 1rem;
   list-style-type: none;
+  max-width: 1080px;
+  margin: 0 auto;
 }
 
 ol li {
   border: 2px solid black;
-  padding: .25rem;
+}
+
+li > img {
+  object-fit: cover;
+  height: 100%;
 }
 
 footer {
