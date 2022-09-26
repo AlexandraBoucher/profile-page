@@ -57,22 +57,24 @@ header img {
 
 .about-me {
   background-color: #F5B3A5;
-  padding: .5rem;
+  padding: 1rem;
 }
 
 .about-me h2 {
   text-align: center;
   font-size: 2em;
+  margin: 0;
 }
 
 .work {
   background-color: #FAD2CA;
-  padding: .5rem;
+  padding-top: 1rem;
 }
 
 .work h2 {
   text-align: center;
   font-size: 2em;
+  margin: 0;
 }
 
 ol {
@@ -82,6 +84,7 @@ ol {
   list-style-type: none;
   max-width: 1080px;
   margin: 0 auto;
+  padding: 1rem;
 }
 
 ol li {
